@@ -21,3 +21,8 @@ class UpdateItemDisplay extends CategoriesBlocState {
 
   UpdateItemDisplay(this.index);
 }
+class UpdateAgainItemDisplay extends CategoriesBlocState {
+  final int index;
+
+  UpdateAgainItemDisplay(this.index);
+}

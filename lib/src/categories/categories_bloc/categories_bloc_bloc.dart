@@ -27,5 +27,8 @@ class CategoriesBlocBloc
     if (event is ItemClickedEvent) {
       yield UpdateItemDisplay(event.index);
     }
+    if (event is ItemAgainClickedEvent) {
+      yield UpdateAgainItemDisplay(event.index);
+    }
   }
 }

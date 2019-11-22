@@ -10,3 +10,8 @@ class ItemClickedEvent extends CategoriesBlocEvent {
 
   ItemClickedEvent(this.index);
 }
+class ItemAgainClickedEvent extends CategoriesBlocEvent {
+  final int index;
+
+  ItemAgainClickedEvent(this.index);
+}
